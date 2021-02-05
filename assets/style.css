@@ -13,7 +13,22 @@ html {
 }
 body {
   margin: 0 0 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+/* #body-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* #body-image {
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+} */
 
 .subnav-hero-section {
   text-align: center;
@@ -30,7 +45,7 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 250px;
+  height: 200px;
 }
 
 .subnav-hero-section .subnav-hero-headline {
@@ -42,6 +57,7 @@ body {
 .logo {
   height: 200px;
   width: 200px;
+  padding: 20px;
 }
 
 .subnav-hero-subnav {
@@ -80,13 +96,13 @@ body {
 .translucent-form-overlay {
   max-width: 500px;
   width: 100%;
-  background-color:  rgba(126, 124, 124, 0.9);
+  background-color: rgba(126, 124, 124, 0.9);
   padding: 20px;
   color: #fefefe;
   justify-items: center;
   align-items: center;
   margin: 50px auto;
-  height: 400px
+  height: 400px;
 }
 
 #text-block {
@@ -127,7 +143,6 @@ body {
   align-items: center;
   margin: auto;
   width: 200px;
-  background-color:;
 }
 #Rbutton {
   width: 200px;
@@ -222,4 +237,16 @@ body {
 }
 .hidden {
   display: none !important;
+}
+
+.drinks .subnav-hero-section {
+  background-color: rgba(54, 54, 54, 0.9) !important;
+}
+
+#footer {
+  background-color: rgba(54, 54, 54, 0.9) !important;
+}
+
+#drinks {
+  background-color: rgba(54, 54, 54, 0.8) !important;
 }
