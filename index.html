@@ -15,10 +15,10 @@
         <div id="content-wrap">
   <header class="subnav-hero-section">
     <img class="logo" src="./assets/images/pantree.png" alt="Pantree company logo depicting a tree with various kitchen items">
-    <h1 class="subnav-hero-headline"> Pantree<sub><small>.com</small></sub></h1>
+    <!-- <h1 class="subnav-hero-headline"> Pantree<sub><small>.com</small></sub></h1> -->
     <ul class="subnav-hero-subnav">
-      <li><a href="#">Let's get drinking</a></li>
-      <li><a href="#" class="is-active">Let's gert cooking!</a></li>
+      <li><a href="#">Let's get drinking!</a></li>
+      <li><a href="#" class="is-active">Let's get cooking!</a></li>
       <li><a target="_blank"  href="./About_us.html">About us</a></li>
     </ul>
   </header>
@@ -28,19 +28,24 @@
   <div >
     <div class="translucent-form-overlay">
         <form >
-          <h3>Search for Properties</h3>
+          <h3>What's in my fridge?</h3>
           <div class="row columns">
-            <label>Keyword
-              <input type="text" name="keyword" placeholder="Any">
+            <label>
+              <input type="text" name="keyword" placeholder="Enter ingredients here:">
             </label>
+            <button id="Lbutton"  type="button" class="primary button  search-button">
+              Add to fridge
           </div>
-          
+          <div class="form-group row columns">
+                <h2> In my fridge:</h2>
+                <div class="inside"></div>
+                   <ul id="in-fridge"></ul>
+                </div>
+              </div>
          
         <section class="btn_layout">
-          <button id="Lbutton"  type="button" class="primary button  search-button">
-            List it
           <button id="Rbutton"  type="button" class="success button  search-button">
-            Search
+            Lets get cooking!
           </button>
         </section>
        </form>
